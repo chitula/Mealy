@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;locationListView&apos; in &apos;com.hackumass.mealy.LocationSelect&apos; to &apos;mLocationListView&apos;&#x0D;&#x0A;- Original project: &apos;Mealy&apos;&#x0D;&#x0A;- Original element: &apos;com.hackumass.mealy.LocationSelect.locationListView&apos;&#x0D;&#x0A;- Renamed element: &apos;com.hackumass.mealy.LocationSelect.mLocationListView&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;locationListView&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;com.hackumass.mealy{LocationSelect.java[LocationSelect^locationListView" name="mLocationListView" references="true" setter="false" stamp="1428809443980" textual="false" version="1.0"/>
+</session>
