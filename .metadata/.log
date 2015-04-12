@@ -31,3 +31,55 @@ Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/Mea
 	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
 	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
 	... 10 more
+!SESSION 2015-04-12 02:33:21.304 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:05.840
+!MESSAGE Warning: Ignoring name conflict in resource file for name hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:05.850
+!MESSAGE Warning: Ignoring name conflict in resource file for name action_settings
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:05.877
+!MESSAGE Warning: Ignoring name conflict in resource file for name activity_horizontal_margin
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:05.879
+!MESSAGE Warning: Ignoring name conflict in resource file for name activity_vertical_margin
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:05.906
+!MESSAGE Warning: Ignoring name conflict in resource file for name activity_horizontal_margin
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:31.957
+!MESSAGE Warning: Ignoring name conflict in resource file for name hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:31.958
+!MESSAGE Warning: Ignoring name conflict in resource file for name action_settings
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:31.969
+!MESSAGE Warning: Ignoring name conflict in resource file for name activity_horizontal_margin
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:31.970
+!MESSAGE Warning: Ignoring name conflict in resource file for name activity_vertical_margin
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-12 02:56:31.977
+!MESSAGE Warning: Ignoring name conflict in resource file for name activity_horizontal_margin
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-12 03:03:11.323
+!MESSAGE activity_action_select.xml: Couldn't resolve resource @string/btn_view_menu
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-12 03:03:12.520
+!MESSAGE activity_action_select.xml: Couldn't resolve resource @string/btn_view_menu
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-12 03:06:50.488
+!MESSAGE activity_action_select.xml: Couldn't resolve resource @string/btn_view_menu
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-12 03:06:50.512
+!MESSAGE activity_action_select.xml: Couldn't resolve resource @string/btn_sell_swipe
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-12 03:06:50.533
+!MESSAGE activity_action_select.xml: Couldn't resolve resource @string/btn_buy_swipe
