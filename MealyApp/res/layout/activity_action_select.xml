@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,31 +9,13 @@
     tools:context="com.hackumass.mealy.ActionSelect" >
 
     
-    <Button 
-        android:id="@+id/btn_sell_swipe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_sell_swipe"
-        android:textSize="25sp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
+    <ListView 
+        android:id="@+id/possible_actions_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="25sp" >
+        
 
-    <Button 
-        android:id="@+id/btn_view_menu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_view_menu"
-        android:textSize="25sp"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@id/btn_sell_swipe"/>
-    
-    <Button 
-        android:id="@+id/btn_buy_swipe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_buy_swipe"
-        android:textSize="25sp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/btn_sell_swipe"/>
+    </ListView>
 
-</RelativeLayout>
+</LinearLayout>

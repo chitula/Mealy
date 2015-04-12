@@ -32,7 +32,6 @@ public class LocationSelect extends ActionBarActivity implements OnItemClickList
 //        mContextmenu = 
         
         // Load the list of dining locations
-//        ArrayList<String> locationsList = new ArrayList<String>();
         ArrayList<String> locationsList = new ArrayList<String>(Arrays.asList(
         		getResources().getStringArray(R.array.dining_locations)));
         ListAdapter locationListdapter = new ArrayAdapter<String>(this, 
@@ -67,13 +66,6 @@ public class LocationSelect extends ActionBarActivity implements OnItemClickList
                 return super.onContextItemSelected(item);
         }
     }
-    
-//    @Override
-//    public void onItemClick(View v) {
-//    	// TODO Auto-generated method stub
-////    	super.onClick(v);
-//    	this.openContextMenu(v);
-//    }
     
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -13,6 +13,12 @@
         <item>Worcester</item>
     </string-array>
 
+    <string-array name="possible_actions">
+        <item>View menus</item>
+        <item>Sell swipe</item>
+        <item>Buy swipe</item>
+    </string-array>
+
     <string name="title_activity_action_select">ActionSelect</string>
 
     <string name="btn_view_menu">View Menu</string>

@@ -1,2 +1,5 @@
 1428809443980	Rename field 'locationListView'
 1428825137225	Rename resource 'action_select_menu.xml'
+1428829512329	Copy file
+1428829560360	Rename local variable 'locationsList'
+1428829570878	Rename local variable 'locationListdapter'
